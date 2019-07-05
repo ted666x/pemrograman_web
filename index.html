@@ -24,23 +24,22 @@
 
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
 
-  <!-- Image Animation -->
-  <style>
-       .shake:hover { 
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-      } 
- </style>
 
 </head>
 
+
+
 <body id="page-top">
+
+    <div id="wrapper">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">FOOTBALL BADBOYS</a>
+      <a class="navbar-brand js-scroll-trigger" href="index.html">FOOTBALL BADBOYS</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -48,10 +47,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Home</a>
+            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Shop</a>
+            <a class="nav-link js-scroll-trigger" href="shop.html">Shop</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#">About</a>
@@ -61,6 +60,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+          </li>
+          <li>
+            <li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link"><span class="fas fa-shopping-cart"></span>[0]</a></li>
           </li>
         </ul>
       </div>
@@ -81,7 +83,7 @@
   <!-- Shop These Look -->
   <div class="jumbotron jumbotron-fluid">
       <div class="container">
-          <h1 class="display-4 text-center" id="popular">Shop These Look</h1>
+          <h1 class="display-4 text-center" id="popular">New Apparel</h1>
           <div class="row" id="row-up" >
               <div class="col-md-3">
                   <div class="card">
@@ -120,44 +122,6 @@
                   </div>
               </div>
           </div>
-          <div class="row" style="text-align:center;">
-              <div class="col-md-3">
-                  <div class="card">
-                      <img src="img/3.jpg" alt="Denim Jeans" style="width:100%">
-                      <h1 class="product">Tailored Jeans</h1>
-                      <p class="price">$19.99</p>
-                      <p>Some text about the jeans..</p>
-                      <p><button>Add to Cart</button></p>
-                  </div>
-              </div>
-              <div class="col-md-3">
-                  <div class="card">
-                      <img src="img/3.jpg" alt="Denim Jeans" style="width:100%">
-                      <h1 class="product">Tailored Jeans</h1>
-                      <p class="price">$19.99</p>
-                      <p>Some text about the jeans..</p>
-                      <p><button>Add to Cart</button></p>
-                  </div>
-              </div>
-              <div class="col-md-3">
-                  <div class="card">
-                      <img src="img/3.jpg" alt="Denim Jeans" style="width:100%">
-                      <h1 class="product">Tailored Jeans</h1>
-                      <p class="price">$19.99</p>
-                      <p>Some text about the jeans..</p>
-                      <p><button>Add to Cart</button></p>
-                  </div>
-              </div>
-              <div class="col-md-3">
-                  <div class="card">
-                      <img src="img/3.jpg" alt="Denim Jeans" style="width:100%">
-                      <h1 class="product">Tailored Jeans</h1>
-                      <p class="price">$19.99</p>
-                      <p>Some text about the jeans..</p>
-                      <p><button>Add to Cart</button></p>
-                  </div>
-              </div>
-          </div>
       </div>
   </div>
 
@@ -172,7 +136,7 @@
         <div class="col-md-12">
           <div class="section_tittle">
             <div class="section_subtittle"><center></center></div>
-            <h2><center>Recent Blog</center></h2>
+            <h1><center>Recent Blog</center></h1>
           </div>
         </div>
       </div>
@@ -285,7 +249,7 @@
       </div>
       <!-- end footer top -->
       <!-- start footer bottom -->
-      <div class="footer-bottom">
+      <div class="footer-bottom"> 
           <div class="container">
               <div class="footer-bottom-area">
                   <p>&copy; All Right Reserved. Designed by <a href="index.html" rel="nofollow">ADMIN</a></p>
@@ -305,6 +269,21 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+
+
+
+  <script>
+      // You can also use "$(window).load(function() {"
+      $(function () {
+  
+        // Slideshow 1
+        $("#slider1").responsiveSlides({
+          maxwidth: 800,
+          speed: 800
+        });
+  
+      });
+    </script>
 
 </body>
 
