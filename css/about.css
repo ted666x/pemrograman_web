@@ -143,12 +143,12 @@
     padding: 2.5em 0; }
     @media (min-width: 768px) {
       .site-section {
-        padding: 5em 0; } }
+        padding: 1em 0; } }
     .site-section.site-section-sm {
-      padding: 4em 0; }
+      padding: 1em 0; }
   
   .site-section-heading {
-    padding-top: 20px;
+    padding-top: 2px;
     padding-bottom: 20px;
     margin-bottom: 0px;
     position: relative;
@@ -242,3 +242,29 @@
     color: #000000;
   
   }
+
+  .btn {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 6px 20px; }
+  .btn:hover, .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+  .btn.btn-black {
+    border-width: 2px;
+    border-color: #000;
+    background: #000;
+    color: #fff; }
+    .btn.btn-black:hover {
+      color: #000;
+      background-color: transparent; }
+    .btn.btn-black.btn-outline-black {
+      color: #000;
+      background-color: transparent; }
+      .btn.btn-black.btn-outline-black:hover {
+        border-color: #000;
+        background: #000;
+        color: #fff; }
+ 
