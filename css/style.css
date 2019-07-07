@@ -467,10 +467,6 @@ animation-iteration-count: infinite;
 
 /* finish footer */
 
-/* Category */
-
-
-/* End Category */
 
 /* Header Shop */
 .shop {
@@ -523,3 +519,24 @@ animation-iteration-count: infinite;
     font-size: 1.25rem;
   }
 }
+
+/* test card */
+
+.card-group {
+	border: 1px solid:whitesmoke;
+}
+
+.card1 {
+	height: auto;
+	margin: 300px;
+	padding: 5000px;
+}
+
+	a.card-title {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		font-size: 20px;
+		margin: 0 auto;
+		color: black;
+	}
