@@ -192,7 +192,6 @@ section
 }
 .trans_200
 {
-	margin-left: 300px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1551,3 +1550,15 @@ section
 	color: #969696;
 	font-weight: 300;
 }
+
+
+		<!-- Cart Buttons -->
+							<div class="cart_buttons d-flex flex-row align-items-start justify-content-start">
+								<div class="cart_buttons_inner ml-sm-auto d-flex flex-row align-items-start justify-content-start flex-wrap">
+									<div class="button button_clear trans_200"><a href="categories.html">clear cart</a></div>
+									<div class="button button_continue trans_200"><a href="categories.html">continue shopping</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
